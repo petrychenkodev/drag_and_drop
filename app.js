@@ -3,7 +3,6 @@ const listItems = document.querySelectorAll(".list-item");
 
 let draggedItem = null;
 
-// https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API
 for (let a = 0; a < listItems.length; a++) {
   const item = listItems[a];
 
